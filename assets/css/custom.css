@@ -1,4 +1,4 @@
-img.angry_cat_pic {
+img.player_pic {
     height: 100px;
     width: 100px;
 }
@@ -9,29 +9,29 @@ img.angry_cat_pic {
     margin-right: auto;
 }
 
-#angry_cats {
+#players {
     margin-top: 30px;
 }
 
-#angry_cats .angry_cat {
+#players .player {
     font-size: 20px;
     font-weight: bold;
 }
 
-#angry_cats th {
+#players th {
     font-size: 24px;
 }
 
-#angry_cats td, table#angry_cats th {
+#players td, table#players th {
     padding: 12px;
 }
 
-#angry_cats td.rank div {
+#players td.rank div {
     display: block;
     text-align: center;
 }
 
-#angry_cats .rank_up img, .rank_down img {
+#players .rank_up img, .rank_down img {
     padding: 8px;
     padding-right: 24px;
     padding-left: 24px;
@@ -43,6 +43,6 @@ img.angry_cat_pic {
     cursor: hand;
 }
 
-#angry_cats .rank_up img:hover, .rank_down img:hover {
+#players .rank_up img:hover, .rank_down img:hover {
     background-color: #ccc;
 }
