@@ -40,9 +40,7 @@ Application.addInitializer(function (option) {
 
 $(document).ready(function () {
     var players = new Players([
-        {name: 'player 1'},
-        {name: 'player 2'},
-        {name: 'player 3'}
+        {name: 'player 1'}
     ]);
 
     Application.start({players: players});
