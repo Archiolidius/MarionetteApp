@@ -43,5 +43,4 @@ $(document).ready(function () {
         {name: 'player 1'}
     ]);
 
-    Application.start({players: players});
 });
