@@ -1,7 +1,8 @@
 Application = new Backbone.Marionette.Application();
 
 Application.addRegions({
-    mainRegion: '#content'
+    mainRegion: '#content',
+    mainRegion2: '#content2'
 });
 
 Player = Backbone.Model.extend({});
@@ -35,14 +36,29 @@ Application.addInitializer(function (option) {
     var playersView = new PlayersView({
         collection: option.players
     });
+    var playersView1 = new PlayersView({
+        collection: option.players
+    });
+    Application.mainRegion2.show(playersView1);
     Application.mainRegion.show(playersView);
 });
 
 $(document).ready(function () {
     var players = new Players([
-        {name: 'player 1'},
-        {name: 'player 2'},
-        {name: 'player 3'}
+        {name: 'player rf1'},
+        {name: 'player rf1'},
+        {name: 'player er2'},
+        {name: 'player 433'},
+        {name: 'player 4353'},
+        {name: 'player 5433'},
+        {name: 'player 5343'},
+        {name: 'player 5343'},
+        {name: 'player 5343'},
+        {name: 'player 5343'},
+        {name: 'player 5343'},
+        {name: 'player 5343'},
+        {name: 'player 5343'},
+        {name: 'player 4353'}
     ]);
 
     Application.start({players: players});
