@@ -45,9 +45,13 @@ Application.addInitializer(function (option) {
 
 $(document).ready(function () {
     var players = new Players([
-        {name: 'player 1'},
-        {name: 'player 2'},
-        {name: 'player 3'}
+        {name: 'player rf1'},
+        {name: 'player er2'},
+        {name: 'player 433'},
+        {name: 'player 4353'},
+        {name: 'player 5433'},
+        {name: 'player 5343'},
+        {name: 'player 4353'}
     ]);
 
     Application.start({players: players});
